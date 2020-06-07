@@ -1,0 +1,7 @@
+//META{"name":"Dream Frame Basic","description":"A more stripped down version of the official Dream Frame theme.","author":"Korbs#0001","version":"v1"}*//{}
+
+@import url(https://dream-frame.github.io/Dream-Frame-Basic/raw.css);
+
+:root {
+    --custombackground: url(https://cdn.discordapp.com/attachments/456316408465195009/664274459871543296/luca-micheli-ruWkmt3nU58-unsplash.jpg);
+}
