@@ -1,5 +1,6 @@
+/* Version of DF */
 .info-1VyQPT::before {
-    content: "Dream Frame Basic v1";
+    content: "Dream Frame Basic v1.01";
     color: white;
     font-size: 12px !important;
 }
@@ -23,23 +24,23 @@ div#app-mount::before {
     left: 0px;
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    background-image: var(--custombackground);
-    filter: brightness(0.3);
+    background: var(--custombackground);
     background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.4);
 }
-div#app-mount, .app-2rEoOp, .bg-h5JY_x, nav.wrapper-1Rf91z.guilds-1SWlCJ, .sidebar-2K8pFh, .chat-3bRxxu, nav.container-PNkimc, .panels-j1Uci, .container-1r6BKw.themed-ANHk51, .scroller-2FKFPG.messages-3amgkR.scroller-3sQKXg, .scroller-2FKFPG.members-1998pB, section.panels-j1Uci_ {
-    background: transparent;
+div#app-mount, .app-2rEoOp, .sidebar-2K8pFh, .chat-3bRxxu, section.title-3qD0b-.container-1r6BKw.themed-ANHk51, .scroller-2FKFPG.messages-3amgkR.scroller-3sQKXg, .scroller-2FKFPG.members-1998pB, nav.container-PNkimc, section.panels-j1Uci_, nav.privateChannels-1nO12o, .scroller-2FKFPG.scroller-1JbKMe, section.container-1r6BKw.themed-ANHk51, .container-1D34oG, .nowPlayingColumn-2sl4cE, .theme-dark .container-1D34oG {
+    background: transparent !important;
 }
-.theme-dark .pageWrapper-1PgVDX, .channelTextArea-rNsIhG, .scrollableContainer-2NUZem.webkit-HjD9Er, .scroller-2FKFPG.contentRegionScroller-26nc1e, .sidebarRegionScroller-3MXcoP, .standardSidebarView-3F1I7i, .layer-3QrUeG, .contentRegion-3nDuYy, .scroller-305q3I {
-    background: transparent;
-}
-.form-2fGMdU:before, .children-19S4PO:after, .guildSeparator-3s64Iy, .separator-gCa7yv, .divider-3573oO.marginBottom40-2vIwTv, .divider-3573oO.dividerDefault-3rvLe-, .divider-3573oO {
+.form-2fGMdU:before, .children-19S4PO:after {
     display: none;
 }
-.default-1mVZrv.base-19D3Qq, .userInfoSection-2acyCx+.userInfoSection-2acyCx, .divider-3wNib3, .theme-dark .emojiRow-zIc7ZX, .separator-2I32lJ {
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-color: transparent;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG::-webkit-scrollbar-track-piece {
+    background-color: transparent;
     border: none;
-    box-shadow: none;
 }
-header.header-2o-2hj {
-    border-radius: 5px;
-}
+
